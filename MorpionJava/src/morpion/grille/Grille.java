@@ -28,7 +28,7 @@ public class Grille {
 			if(joueur != null && joueur.equals(getProprietaireSymbole(i*3+1))){
 				if(joueur.equals(this.getProprietaireSymbole(i*3+2))){
 					gagnant = joueur;
-					return gagnant;
+					break;
 				}
 			}
 		}
@@ -48,7 +48,7 @@ public class Grille {
 			if(joueur != null && joueur.equals(getProprietaireSymbole(i+3*1))){
 				if(joueur.equals(this.getProprietaireSymbole(i+3*2))){
 					gagnant = joueur;
-					return gagnant;
+					break;
 				}
 			}
 		}

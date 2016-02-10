@@ -10,7 +10,7 @@ public class Symbole {
 	//Constructeur
 	public Symbole(char c, Joueur joueur) {
 		this.SymboleChar = c;
-		this.proprietaire = proprietaire;
+		this.proprietaire = joueur;
 	}
 	
 	//Methodes

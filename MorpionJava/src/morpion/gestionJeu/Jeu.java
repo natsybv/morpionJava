@@ -62,8 +62,10 @@ public class Jeu {
 				System.out.println("joueur"+this.grille.getGagnant().getNumJoueur()+" a gagné");
 				break;
 			} else if (this.grille.estPleine()){
+				// si il y a match null
 				this.afficherGrille();
 				System.out.println("Match null !");
+				break;
 			}
 			
 			this.changerTour();
